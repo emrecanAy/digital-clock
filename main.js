@@ -10,7 +10,7 @@ function getTime(){
     var year = now.getFullYear();
     
     (hour < 10) ? document.getElementById("hour").innerText = "0" + hour :
-                  document.getElementById("hour").innerText = "0" + hour;
+                  document.getElementById("hour").innerText = hour;
     (minute < 10) ? document.getElementById("minute").innerText = "0" + minute : 
                     document.getElementById("minute").innerText = minute;
     (second < 10) ? document.getElementById("second").innerText = "0" + second :
