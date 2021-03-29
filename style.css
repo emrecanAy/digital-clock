@@ -1,0 +1,50 @@
+body {
+    background-color: #424242;
+    color : #ffff;
+    background-image: url(https://cutewallpaper.org/21/dark-4k-wallpaper/Black-Waves-Wallpaper-for-Desktop-4K-3840x2160-in-2019-.jpg);
+}
+
+#clock {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+}
+
+#clock h2 {
+    font-family: 'Syne Mono', monospace;
+}
+
+.clockContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+
+.clockItems {
+    width: 32%;
+    background-color: #ffff;
+    color:#000;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+
+#date {
+    margin-top: 7%;
+    font-family: 'Syne Mono', monospace;
+}
+
+h5{
+    font-family: 'Syne Mono', monospace;
+    color: firebrick;
+    text-shadow: 1px 1px 1px black;
+}
+
+  
+  
